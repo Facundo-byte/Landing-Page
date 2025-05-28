@@ -1,0 +1,148 @@
+body{
+    background-image: url(images/bg-desktop.svg); 
+}
+
+*{
+    box-sizing: border-box;
+    font-family: fuente1;
+    color: hsl(300, 26%, 37%);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+/*LOGO */
+
+/* CONTENEDORES */
+
+#contenedor{
+    display: flex;
+    margin: 0 20px 0 20px;
+}
+
+#subcontenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+/* BOTON */
+
+#boton{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: hsl(257, 40%, 49%);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#boton:hover {
+    background-color: hsl(300, 69%, 71%);
+    box-shadow: 0px 15px 20px hsl(257, 40%, 49%);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#boton:active {
+    transform: translateY(-1px);
+}
+/* TEXTOS */
+
+#titulo{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500
+}
+
+/* ICONS */
+
+#iconcontainer{
+    display: flex;
+    margin: 40px 100px 0 0;
+    justify-content: right;
+    gap: 5px;
+}
+
+.icons{
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.icons:hover{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* IMAGEN */
+
+#imagen{
+    width: 100vw;
+    height: 65vh;
+}
+
+/* LOGO */
+
+#logo{
+    width: 250px;
+    padding: 20px;
+    margin: 0 0 30px 0;
+}
+/* MOBILE */
+
+@media screen and (max-width: 600px){
+
+    #logo{
+        padding: 20px;
+        width: 200px;
+    }
+
+    #contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #subcontenedor{
+        padding: 30px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #titulo{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    #imagen{
+        width: 75vw;
+        height: 26vh;
+        margin: 0 0 30px 0;
+    }
+
+    #boton{
+        width: 30vw;
+        font-size: 15px;
+    }
+
+    #iconcontainer{
+        justify-content: center;
+        margin: 40px 0 0 0;
+    }
+}
