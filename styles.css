@@ -1,5 +1,6 @@
 body{
     background-image: url(images/bg-desktop.svg); 
+    background-size: cover;
 }
 
 *{
@@ -19,6 +20,7 @@ img{
 #contenedor{
     display: flex;
     margin: 0 20px 0 20px;
+    width: 100%;
 }
 
 #subcontenedor{
@@ -86,9 +88,9 @@ p{
 }
 
 /* IMAGEN */
-
+ /*709 * 506*/
 #imagen{
-    width: 100vw;
+    width: 70vw;
     height: 65vh;
 }
 
@@ -98,6 +100,12 @@ p{
     width: 250px;
     padding: 20px;
     margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 1400px){
+    #imagen{
+        height: 45vh;
+    }
 }
 /* MOBILE */
 
