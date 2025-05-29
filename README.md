@@ -18,7 +18,10 @@ CSS3 (media queries, flexbox, responsive units)
 
 Custom fonts
 
-PC version:
+### PC version
+![Captura de pantalla_28-5-2025_21912_landing-page-nine-psi-66 vercel app](https://github.com/user-attachments/assets/89969607-c549-4335-a18b-83a4767539b5)
 
 
-Mobile version:
+### Mobile version:
+
+![Captura de pantalla_28-5-2025_211624_landing-page-nine-psi-66 vercel app](https://github.com/user-attachments/assets/1dc2ea6d-26a4-4296-b371-8be408ac4e3e)
